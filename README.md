@@ -16,6 +16,7 @@ These are implementations of various machine learing algorithmns I created. They
 
 # Neural Net | [nn.py](nn.py)
 The setup of the neural net used in the data includes:
+
 ![nn_setup](img/nn_setup.png)
 
 <u>My findings: </u>
