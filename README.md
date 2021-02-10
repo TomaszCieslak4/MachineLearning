@@ -68,7 +68,7 @@ Underfitting occurs when the reduced dimension is between 1 and 7 (i.e. anything
 
 # K-Means | [kmeans.py](kmeans.py)
 
-Both Gaussian Mixture and K-Means are included, and the results and incredibile. 
+Both Gaussian Mixture and K-Means are included, and the results are incredibile. 
 
 ![km](img/kmean_border.png)
 
