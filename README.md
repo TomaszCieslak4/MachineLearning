@@ -35,7 +35,7 @@ in more memory utilization. Also, with a batch size of one, every iteration
 (step) might change in direction therefore adding more ”noise” which means
 training might take longer and decrease the performance.
 
-    Executing on a massively parallel machine allows for simultaneous training for a single neural network. This means that a neural network can split data between the different neural nodes in each layer, this reduces training time by spreading out the computations between different processes.
+Executing on a massively parallel machine allows for simultaneous training for a single neural network. This means that a neural network can split data between the different neural nodes in each layer, this reduces training time by spreading out the computations between different processes.
 
 # Quantitive Discriminant Analysis | [qda.py](qda.py)
 
