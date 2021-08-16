@@ -66,7 +66,7 @@ Overfitting occurs when the reduced dimension is between 9 and 50 (i.e. anything
 
 Underfitting occurs when the reduced dimension is between 1 and 7 (i.e. anything less than K=8) since its reduced dimension is getting quite small. On my above figure, everything to the left of the highlighted critical point shows that the overfitted model does not work well on the training dataset and fails on the validation dataset and decreases it accuracy.
 
-# PCA + QDA | [Images](graphs_and_plots/pca_and_qda_accuracy)
+# PCA + QDA | [Images](graphs_and_plots/pca_and_qda_accuracy.pdf)
 
 <u>My findings: </u>
 
@@ -88,7 +88,7 @@ The kmeans algorithmn has a linear decision boundary and offers less robust accu
 
 The guassian mixture (gm) algorithmn has a percentage decision boundary that offers robust accuracies that belong to multiple classes at once, without defining each data point to a specific class. 
 
-# Decision Boundaries | [Images](graphs_and_plots/multiclass_classification)
+# Decision Boundaries | [Images](graphs_and_plots/multiclass_classification.pdf)
 
 <u>My findings: </u>
 
