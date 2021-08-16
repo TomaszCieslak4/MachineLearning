@@ -66,6 +66,12 @@ Overfitting occurs when the reduced dimension is between 9 and 50 (i.e. anything
 
 Underfitting occurs when the reduced dimension is between 1 and 7 (i.e. anything less than K=8) since its reduced dimension is getting quite small. On my above figure, everything to the left of the highlighted critical point shows that the overfitted model does not work well on the training dataset and fails on the validation dataset and decreases it accuracy.
 
+# PCA + QDA | [Images](graphs_and_plots/pca_and_qda_accuracy)
+
+<u>My findings: </u>
+
+When applying a dimensionaility reduction before classifing numbers using QDA it significantly improves performance while still providing high accuracies. 
+
 # K-Means | [kmeans.py](kmeans.py)
 
 Both Gaussian Mixture and K-Means are included, and the results are incredibile. 
@@ -81,3 +87,9 @@ The kmeans algorithmn has a linear decision boundary and offers less robust accu
 <u>The findings:</u>
 
 The guassian mixture (gm) algorithmn has a percentage decision boundary that offers robust accuracies that belong to multiple classes at once, without defining each data point to a specific class. 
+
+# Decision Boundaries | [Images](graphs_and_plots/multiclass_classification)
+
+<u>My findings: </u>
+
+I visualized my findings playing with the hyper parameters between k-means, neural networks and GMM. Some parameters yeild significantly better accuracies along the clusters.
